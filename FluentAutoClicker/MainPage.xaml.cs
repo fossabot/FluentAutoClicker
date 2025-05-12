@@ -18,6 +18,7 @@
 using FluentAutoClicker.Helpers;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media.Animation;
 using Microsoft.Windows.BadgeNotifications;
 using Windows.Win32;
@@ -221,5 +222,10 @@ public sealed partial class MainPage
     private void SettingsButton_Click(object sender, RoutedEventArgs e)
     {
         _ = Frame.Navigate(typeof(SettingsPage), null, new SuppressNavigationTransitionInfo());
+    }
+
+    private void TextBox_KeyDown(object sender, KeyRoutedEventArgs e)
+    {
+        HotkeyTextBox.Text = e.Key.ToString();
     }
 }

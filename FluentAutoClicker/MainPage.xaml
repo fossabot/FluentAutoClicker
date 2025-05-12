@@ -104,7 +104,12 @@
             Grid.Column="0"
             Spacing="{StaticResource StackPanelSpacing}">
             <controls:IsEnabledTextBlock x:Name="HotkeyTextBlock" x:Uid="TextBlockHotkey" />
-            <Button Content="F6" IsEnabled="False" />
+            <TextBox
+                x:Name="HotkeyTextBox"
+                HorizontalAlignment="Left"
+                IsReadOnly="True"
+                PreviewKeyDown="TextBox_KeyDown"
+                Text="F6" />
         </StackPanel>
 
         <!--  Click Repeat  -->
