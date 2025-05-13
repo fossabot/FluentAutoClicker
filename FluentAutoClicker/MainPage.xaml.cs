@@ -223,9 +223,4 @@ public sealed partial class MainPage
     {
         _ = Frame.Navigate(typeof(SettingsPage), null, new SuppressNavigationTransitionInfo());
     }
-
-    private void TextBox_KeyDown(object sender, KeyRoutedEventArgs e)
-    {
-        HotkeyTextBox.Text = e.Key.ToString();
-    }
 }
