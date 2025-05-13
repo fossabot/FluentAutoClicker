@@ -185,7 +185,7 @@
     <value>Settings</value>
     <comment>This is the tool tip automation name for the Settings button.</comment>
   </data>
-  <data name="ToggleButtonStartTooltipStart" xml:space="preserve">
+  <data name="ToggleButtonStartToolTipStart" xml:space="preserve">
     <value>Start</value>
     <comment>This is the tool tip automation name for the Start button.</comment>
   </data>
@@ -341,7 +341,7 @@
     <value>Show badge while paused</value>
     <comment>Label for Show badge while paused check box on the Behavior panel</comment>
   </data>
-  <data name="ToggleButtonStartTooltipStop" xml:space="preserve">
+  <data name="ToggleButtonStartToolTipStop" xml:space="preserve">
     <value>Pause</value>
     <comment>This is the tool tip automation name for the Stop button.</comment>
   </data>
@@ -352,5 +352,14 @@
   <data name="TextBlockAbout.Text" xml:space="preserve">
     <value>About</value>
     <comment>Subtitle of about message on Settings page</comment>
+  </data>
+  <data name="HotkeyButtonEdit.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="HotkeyButtonCancel.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="HotkeyButtonAccept.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Accept</value>
   </data>
 </root>

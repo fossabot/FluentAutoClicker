@@ -27,4 +27,9 @@ public sealed partial class HotkeyControl : UserControl
     {
         InitializeComponent();
     }
+
+    private void Button_Click(object sender, Microsoft.UI.Xaml.RoutedEventArgs e)
+    {
+        
+    }
 }
