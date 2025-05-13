@@ -2,4 +2,5 @@
 
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Thickness x:Key="ContentMargin">16,8,16,16</Thickness>
+    <x:Double x:Key="ButtonColumnSpacing">8</x:Double>
 </ResourceDictionary>

@@ -16,7 +16,6 @@
 
     <Page.Resources>
         <x:Double x:Key="NumberBoxColumnSpacing">4</x:Double>
-        <x:Double x:Key="ButtonColumnSpacing">8</x:Double>
         <x:Double x:Key="GridRowSpacing">8</x:Double>
         <x:Double x:Key="StackPanelSpacing">8</x:Double>
     </Page.Resources>
