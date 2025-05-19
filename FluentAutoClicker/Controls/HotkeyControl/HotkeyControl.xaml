@@ -14,15 +14,25 @@
             Grid.Column="0"
             IsEnabled="False"
             IsReadOnly="True"
+            KeyDown="TextBox_KeyDown"
             Text="F6" />
-        <Button x:Uid="HotkeyEditButton" Click="Button_Click">
+        <Button
+            x:Name="EditButton"
+            x:Uid="HotkeyButtonEdit"
+            Click="EditButton_Click">
             <FontIcon Glyph="&#xE70F;" />
         </Button>
-        <Button x:Uid="HotkeyCancelButton" Visibility="Collapsed">
+        <Button
+            x:Name="CancelButton"
+            x:Uid="HotkeyButtonCancel"
+            Click="CancelButton_Click"
+            Visibility="Collapsed">
             <FontIcon Glyph="&#xE711;" />
         </Button>
         <Button
-            x:Uid="HotkeyAcceptButton"
+            x:Name="AcceptButton"
+            x:Uid="HotkeyButtonAccept"
+            Click="AcceptButton_Click"
             Style="{StaticResource AccentButtonStyle}"
             Visibility="Collapsed">
             <FontIcon Glyph="&#xE8FB;" />
